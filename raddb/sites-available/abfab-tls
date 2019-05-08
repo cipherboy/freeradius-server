@@ -19,7 +19,7 @@ listen {
 		dh_file = ${certdir}/dh
 		fragment_size = 8192
 		ca_path = ${cadir}
-		cipher_list = "DEFAULT"
+		cipher_list = "PROFILE=SYSTEM"
 
 		cache {
 			enable = no

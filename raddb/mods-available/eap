@@ -368,7 +368,7 @@ eap {
 		#
 		#  For EAP-FAST, use "ALL:!EXPORT:!eNULL:!SSLv2"
 		#
-		cipher_list = "DEFAULT"
+		cipher_list = "PROFILE=SYSTEM"
 
 		#  If enabled, OpenSSL will use server cipher list
 		#  (possibly defined by cipher_list option above)
@@ -912,7 +912,7 @@ eap {
 		#  Note - for OpenSSL 1.1.0 and above you may need
 		#  to add ":@SECLEVEL=0"
 		#
-	#	cipher_list = "ALL:!EXPORT:!eNULL:!SSLv2"
+	#	cipher_list = "PROFILE=SYSTEM"
 
 		#  PAC lifetime in seconds (default: seven days)
 		#
